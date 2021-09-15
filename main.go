@@ -25,7 +25,6 @@ func main() {
 	}))
 
 	err = c.ConnectToNSQD("Your Link Connection / IP")
-	// err = c.ConnectToNSQD("127.0.0.1:4150")
 
 	if err != nil {
 		log.Panic("Could not connect")
