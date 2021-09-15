@@ -24,7 +24,7 @@ func main() {
 		return nil
 	}))
 
-	err = c.ConnectToNSQD("68.183.237.182:4171")
+	err = c.ConnectToNSQD("Your Link Connection / IP")
 	// err = c.ConnectToNSQD("127.0.0.1:4150")
 
 	if err != nil {
